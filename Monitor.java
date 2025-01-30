@@ -62,4 +62,12 @@ public class Monitor
     {
         this.screenSize = screenSize;
     }
+
+
+	@Override
+	public String toString()
+	{
+		return "Monitor brandName=" + brandName + ", modelNumber=" + modelNumber + ", resolution=" + resolution
+				+ ", screenSize=" + screenSize + "";
+	}
 }

@@ -59,4 +59,11 @@ public class Case
     {
         this.dimension = dimension;
     }
+
+	@Override
+	public String toString()
+	{
+		return "Case manufacture=" + manufacture + ", numberFans=" + numberFans + ", casetype=" + casetype
+				+ ", dimension=" + dimension + " ";
+	}
 }

@@ -32,8 +32,9 @@ public class Resolution
         this.width = width;
     }
 
-    public String toString()
+    @Override
+	public String toString()
     {
-        return height + " x " + width;
-    }
+		return "Resolution height=" + height + ", width=" + width + " ";
+	}
 }

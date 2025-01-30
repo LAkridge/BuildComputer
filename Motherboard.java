@@ -43,4 +43,11 @@ public class Motherboard
         this.socketType = socketType;
     }
 
+	@Override
+	public String toString()
+	{
+		return "Motherboard brandName=" + brandName + ", dMotherboard=" + dMotherboard + ", socketType=" + socketType
+				+ " ";
+	}
+
 }
